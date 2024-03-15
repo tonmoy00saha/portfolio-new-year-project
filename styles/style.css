@@ -1,0 +1,218 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    max-width: 1600px;
+}
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+}
+
+.detail-info {
+    padding: 216px 230px 166px 845px;
+    text-align: right;
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.header-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.contact {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 21px 25px 20px 26px;
+    margin-top: 0;
+}
+
+/* Main-part */
+.main-part {
+    margin: 140px 230px 130px;
+}
+
+.picture-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.info {
+    align-items: left;
+}
+
+.info-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.info-description {
+    margin-top: 0;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.info-point {
+    color: #444343;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* My-plane */
+.title-myplane {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content-image {
+    max-width: 92.958px;
+    margin-top: 0;
+    margin-bottom: 18.3px;
+}
+
+.content-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+.content-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.content-area {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.my-plane {
+    margin: 130px 0px;
+}
+
+/* Extra part */
+.extra {
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 8px;
+    margin: 0;
+    padding: 30px 617px 59px 64px;
+}
+
+.extra-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+#extra-call-text {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.extra-call {
+    margin-top: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    padding: 21px 36px 20px 36px;
+}
+
+footer {
+    background: #151414;
+    display: flex;
+    gap: 331px;
+    padding: 230px 130px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-description {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 485px;;
+}
+.email{
+    color: #FFF;
+font-size: 16px;
+}
+.phone{
+    color: #FFF;
+    font-size: 16px;
+}
+.subscribe-title{
+    color: #FFF;
+font-size: 25px;
+font-weight: 600;
+}
+#inputemail{
+    border-radius: 8px;
+border: 1px solid #FFF;
+padding: 21px 150px 21px 21px;
+max-width: 325px;
+background-color: #151414;
+margin-top: 31px;
+margin-bottom: 16px;
+}
+.subscribe-section>input{
+    display: block;
+}
+#sub-text{
+    color: #F15B22;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+.sub-btn{
+    max-width: 170.106px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 36px;
+}
+.social-links>a{
+    margin-right: 15px;
+}
